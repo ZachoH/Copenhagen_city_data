@@ -24,3 +24,26 @@ Checking that html integration is working
 </figure>
 
 
+Her er nogle noter fra podcast:
+
+* How far New Yorkers are from a Starbucks. 
+
+* Taxi-industrien: exploring tipping behavior. 
+
+* Undersøg parkeringsbøder - which hydrant in NY has mst parking ticket acociated with it. Sådan, hvilket lygtepæl tjener flest penge. 
+
+* Dirty secret: he uses excel pivot table eller ipython
+
+* think about what the people want (usually money saving, the city is not using things efficiently)
+
+
+Spændende dataset:
+* 100 års stromflod i københavn
+* Trafiktal
+* almene boliger pr. skoledistrikt 
+* almene boligfreninger i københavn 
+* Cykeldata
+* tælleringer, kryds /fodgængere, cukler, MC
+* affald, købenahvns kommune
+* Cejstøj. kunne brues ift antallet af cykler stiger
+* Man kunne kigge på at relatere det vi aalyserer til hvem der har været borgmester 
