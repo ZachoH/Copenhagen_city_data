@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+This website is created by Noa Shiv and Clara Marie Zacho Hansen. 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+It is the final project in the DTU course 02806 Social Data Analysis and Visualization. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The project is handed in on tuesday 13th of May 2025. 
