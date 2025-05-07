@@ -76,11 +76,21 @@ NOX is a mix of NO and NO2, where NO2 is causing the most harm and is emmitted f
 </p>
 
 <figure id="fig3">
- {% include NO2_emissions.html %}
+ {% include NO2_emissions.png %}
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
    <strong>Figure 3:</strong> Polar chart showing distribution of NO2 emissions throughout an average day.
   </figcaption>
 </figure>
+
+<figure id="fig3" style="float: right; margin-left: 10px; margin-bottom: 5px; width: 100%; max-width: 100%;">
+  <img src="{{ site.baseurl }}/assets/plots/NO2_emissions.png" width="100%" height="500" alt="NO2 emissions plot">
+  <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">
+    <strong>Figure 3:</strong> Polar chart showing distribution of NO2 emissions throughout an average day.
+  </figcaption>
+</figure>
+<p>
+
+
 <p>
 The charts clearly show peaks in the morning between 6–9 AM, likely due to rush hour, where the midday concentrations are lower but rise again around 5–6 PM, showing high trends of NO2 emissions in the afternoon and evening hours. However, the limit is only exceeded for the H. C. Andersens Boulevard and Jatvej measuring station. 
 </p>
@@ -88,11 +98,14 @@ The charts clearly show peaks in the morning between 6–9 AM, likely due to rus
 <p>
 Air pollution also affects pregnancies through low birth weight and pre-term births and the finer particles called PM2.5 and PM10 can cause more long term harm including strokes, cancer, and respiratory <a href="https://www.eea.europa.eu/en/newsroom/news/air-pollution-levels-across-europe">diseases</a>. The PM2.5 particles are even so small, that they can to enter the lungs and  <a href="https://www.unicef.org/tajikistan/press-releases/1-5-infant-deaths-europe-and-central-asia-linked-air-pollution-unicef">bloodstream</a>. The finer particles (PM2.5 and PM10) are only measured at HC Andersens Boulevard, and a similar polar chart shown in <ref target="fig4">Figure 4</ref> for this data indicates that the EU limits of 20 µg/m³ and 40 µg/m³ for PM2.5 and PM10, respectively, is exceeded in all hours of the day:
 </p>
-
-<figure id="fig5">
- {% include PM_emissions.html %}
-  <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
-   <strong>Figure 5:</strong> Polar chart showing particle pollution throughout an average day.
+<figure id="fig5" style="float: right; margin-left: 10px; margin-bottom: 5px; width: 100%; max-width: 100%;">
+  <iframe src="{{ site.baseurl }}/assets/plots/PM_emissions.html" 
+          width="100%" 
+          height="500" 
+          frameborder="0" 
+          style="margin-bottom: 0;"></iframe>
+  <figcaption style="text-align: center; font-style: italic; margin-top: 0;">
+    <strong>Figure 5:</strong> Polar chart showing particle pollution throughout an average day.
   </figcaption>
 </figure>
 
@@ -126,7 +139,19 @@ In the map above, playgrounds located around Copenhagen is also shown, where it 
 
 
 
+<figure id="fig5">
+ {% include traffic_noise_plot.html %}
+  <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
+   <strong>Figure 5:</strong> Polar chart showing particle pollution throughout an average day.
+  </figcaption>
+</figure>
 
 
 
+<figure id="fig1">
+  <iframe src="{{ site.baseurl }}/assets/plots/daycare_vs_playgrounds_dual_axis.html" width="100%" height="500" frameborder="0"></iframe>
+  <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
+    <strong>Figure 1:</strong> Map of Copenhagen showing environmental zones and air quality measuring stations.
+  </figcaption>
+</figure>
 
