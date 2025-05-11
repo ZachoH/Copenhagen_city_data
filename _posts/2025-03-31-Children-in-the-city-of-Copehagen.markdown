@@ -121,10 +121,10 @@ Despite the risk of exposing children to harmful emission, the number of familie
 </figure>
 
 
-<figure id="fig1" style="float: right; margin-left: 10px; margin-bottom: 5px; max-width: 400px;">
+<figure id="fig6" style="float: right; margin-left: 10px; margin-bottom: 5px; max-width: 400px;">
   <iframe src="{{ site.baseurl }}/assets/plots/families_population_plot.html" width="400" height="350" frameborder="0"></iframe>
   <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">
-    <strong>Figure 1:</strong> Family growth and share of families in Copenhagen. 
+    <strong>Figure 6:</strong> Family growth and share of families in Copenhagen. 
   </figcaption>
 </figure>
 
@@ -144,10 +144,10 @@ Despite the risk of exposing children to harmful emission, the number of familie
   Studies show that children who have access to green areas, and are exposed to them on a regular basis, has a reduced risk of mental health disorders and improved <a href="https://www.nih.gov/news-events/nih-research-matters/green-space-may-improve-young-children-s-mental-health">mood</a>, which could have had an impact on parents' decisions to settle their families down in Amager. 
 </p>
 
-<figure id="fig8" style="float: right; margin-left: 10px; margin-bottom: 5px; width: 100%; max-width: 100%; ">
+<figure id="fig7" style="float: right; margin-left: 10px; margin-bottom: 5px; width: 100%; max-width: 100%; ">
   <iframe src="{{ site.baseurl }}/assets/plots/playgrounds_green_areas_plot.html" width="100%" height="500" frameborder="0"></iframe>
   <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">
-    <strong>Figure 8:</strong> Map of green areas and playground in Copenhagen. <a href="https://www.opendata.dk/city-of-copenhagen/legepladser1">[Playground data origin]</a> <a href="https://www.opendata.dk/city-of-copenhagen/gronne-omrader">[Green areas data origin]</a>
+    <strong>Figure 7:</strong> Map of green areas and playground in Copenhagen. <a href="https://www.opendata.dk/city-of-copenhagen/legepladser1">[Playground data origin]</a> <a href="https://www.opendata.dk/city-of-copenhagen/gronne-omrader">[Green areas data origin]</a>
   </figcaption>
 </figure>
 <p>
@@ -159,24 +159,24 @@ To investigate this further, the interactive bar chart below show two key indica
 </p>
 
 
-<figure id="fig9">
+<figure id="fig8">
   <iframe src="{{ site.baseurl }}/assets/plots/daycare_vs_playgrounds_dual_axis.html" width="100%" height="600" frameborder="0"></iframe>
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
-    <strong>Figure 9:</strong> Daycare Coverage vs Playgrounds per 1000 Kids. ***indsæt link***
+    <strong>Figure 8:</strong> Daycare Coverage vs Playgrounds per 1000 Kids. ***indsæt link***
   </figcaption>
 </figure>
 
 Many parents in Copenhagen has found it a struggle to find day care for their children, due to long waitlists and overcrowded institutions. And an article from  <a href="https://cphpost.dk/2012-04-23/general/daycare-woes-continue-for-copenhagen-parents/">"The Copenhagen Post"</a> descibed these challenges in 2012, where the Mayor of Copenhagen Frank Jensen stated that by 2014 "there will be daycare for everyone within four kilometres of their home." By clicking on the blue legend ("Daycare coverage(%)") it is possible to explore the level of access parents have to daycare services for their children. This estimation is based on a baseline where the share of children in ages 0-4 years compared to the number of daycare institutions in the entirety of Copenhagen relates to 100%, making it possible to find the distribution in each city district. This analysis reveals that Østerbro, Amager, and Vanløse have the lowest share of daycare institutions, while Indre By stands out with an exceptionally high concentration of daycare facilities. Similar to the playgrounds, this could again be due to the limited access in the central part of Copenhagen, leading to smaller daycare institutions that are unable to accommodate a large number of children. 
 
 
-The central district of Copenhagen, boasts a relatively high number of playgrounds and daycare facilities, which is a positive feature for families. However, <ref target="fig10">Figure 10</ref> shows that these inner parts of the city has significantly high levels of noise pollution, likely caused by urban activities and dense traffic, not preferable for children to spend their day in. 
+The central district of Copenhagen, boasts a relatively high number of playgrounds and daycare facilities, which is a positive feature for families. However, <ref target="fig9">Figure 10</ref> shows that these inner parts of the city has significantly high levels of noise pollution, likely caused by urban activities and dense traffic, not preferable for children to spend their day in. 
 
 This uneven distribution of amenities, with some areas offering abundant green spaces and others lacking basic facilities and institutions, highlights a key issue: access to nature and recreational areas is not equally distributed across the city, resulting in some areas being a better fit for families contributing to social and spatial inequalities. 
 
-<figure id="fig10">
+<figure id="fig9">
  {% include traffic_noise_plot.html %}
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
-   <strong>Figure 10:</strong> Noise pollution levels in Copenhagen.
+   <strong>Figure 9:</strong> Noise pollution levels in Copenhagen.
   </figcaption>
 </figure>
 
