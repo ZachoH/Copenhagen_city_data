@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Children in the city of Copenhagen"
-date:   2025-03-31 15:35:59 +0200
+date:   2025-05-12 15:35:59 +0200
 categories: jekyll update
 ---
 
