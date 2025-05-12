@@ -21,12 +21,12 @@
 title: Copenhagen City Data
 description: >- # this means to ignore newlines until "baseurl:"
   A datastory on the city of Copenhagen, Denmark. The data is collected from
-  various sources and is used to create a visualisation of armenities and trends occurring in the city.
+  various sources and is used to create a visualisation of amenities and trends occurring in the city.
 author: Noa Shiv and Clara Marie Zacho Hansen
 
 domain: "https://zachoh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "Copenhagen_city_data" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/ZachoH/Copenhagen_city_data" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings

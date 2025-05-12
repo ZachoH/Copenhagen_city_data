@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 <b>
-Having children in the city can often be challenging and new families are usually drawn to the suburbs or countryside, seeking more space and have their children engage with nature. However, Copenhagen proclaims to be a city that welcomes kids with endless opportunities of playgrounds, abundance of green space and even that the city <a href="https://www.visitcopenhagen.com/copenhagen/activities/copenhagen-with-kids">is designed to match the needs of kids and their parents</a>. But does the reality match the city's promises? Through open source data, this article investigates how recent trends have been regarding families in the capital of Denmark, what the city has to offer, and weather the city can live up to their reputation. 
+Having children in the city can often be challenging and new families are usually drawn to the suburbs or countryside, seeking more space and have their children engage with nature. However, Copenhagen proclaims to be a city that welcomes kids with endless opportunities of playgrounds, abundance of green space and even that the city <a href="https://www.visitcopenhagen.com/copenhagen/activities/copenhagen-with-kids">is designed to match the needs of kids and their parents</a>. But does the reality match the city's promises? Through open source data, this article investigates how recent trends have been regarding families in the capital of Denmark, what the city has to offer, and weather the city can live up to their reputation. The data processing and analysis can be accessed through the following links: <a href="https://github.com/ZachoH/Copenhagen_city_data">[Github, </a>  <a href="https://github.com/ZachoH/Copenhagen_city_data/blob/main/Notebook_and_Data/Notebook.ipynb">Notebook]</a>. 
 </b>
 
 
@@ -20,7 +20,7 @@ Having children in the city can often be challenging and new families are usuall
 
 
 <p>
-The municipality of Copenhagen has introduced several initiatives to improve the well-being of its residents. For example to improve air quality in the city, an <a href="https://miljoezoner.dk/om-mz/om-miljozoner/">environmental zone</a> covering the entire city was established in 2020, designed to reduce air pollution from vehicles by permitting access only for vehicles with certain particle filters equipped. To monitor the air pollution, Aarhus Universitet has installed three measuring stations in the city, located between the districts of Nørrebro and Østerbro. The environmental zone and measuring stations are mapped out on the right in <ref target="fig1">Figure 1</ref> . Zoom in on the plot to find there measuring stations, marked as red icon.
+The municipality of Copenhagen has introduced several initiatives to improve the well-being of its residents. For example to improve air quality in the city, an <a href="https://miljoezoner.dk/om-mz/om-miljozoner/">environmental zone</a> covering the entire city was established in 2020, designed to reduce air pollution from vehicles by permitting access only for vehicles with certain particle filters equipped. To monitor the air pollution, Aarhus Universitet has installed three measuring stations in the city, located between the districts of Nørrebro and Østerbro. The environmental zone and measuring stations are mapped out on the right in <a href="#fig1">Figure 1</a> . Zoom in on the plot to find there measuring stations, marked as red icon.
 </p>
 
 
@@ -77,8 +77,9 @@ The EU has also had concerns about high air pollution levels in cities and has i
 </table>
 <br>
 <p>
-NOX is a mix of NO and NO2, where NO2 is causing the most harm and is emmitted from fuel combustion, which in urban areas mainly stem from vehicles. According to the <a href="https://www.gov.uk/government/statistics/air-quality-statistics/ntrogen-dioxide">UK Department for Environment, Food and Rural Affairs</a>, NO2 can cause short term inflammation in the airways and may increase susceptibility to respiratory infections, which can hinder the development of childrens lungs and can aggravate asthma. Looking at <ref target="fig2">Figure 2</ref> the NO2 emissions exceeds the limits of 200 µg/m³ many times throughout March, raising concerns about prolonged exposure for children living in these circumstances. In order to investigate how big the concentrations are during an average day, a polar bar chart in <ref target="fig3">Figure 3</ref> presents how the emissions of this specific pollutant average across hours during the days in March, which is more comparable to the EU standards. 
+NOX is a mix of NO and NO2, where NO2 is causing the most harm and is emmitted from fuel combustion, which in urban areas mainly stem from vehicles. According to the <a href="https://www.gov.uk/government/statistics/air-quality-statistics/ntrogen-dioxide">UK Department for Environment, Food and Rural Affairs</a>, NO2 can cause short term inflammation in the airways and may increase susceptibility to respiratory infections, which can hinder the development of childrens lungs and can aggravate asthma. Looking at  <a href="#fig2">Figure 2</a> the NO2 emissions exceeds the limits of 200 µg/m³ many times throughout March, raising concerns about prolonged exposure for children living in these circumstances. In order to investigate how big the concentrations are during an average day, a polar bar chart in  <a href="#fig3">Figure 3</a> presents how the emissions of this specific pollutant average across hours during the days in March, which is more comparable to the EU standards. 
 </p>
+
 
 <figure id="fig3">
  {% include NO2_emissions.png %}
@@ -89,11 +90,11 @@ NOX is a mix of NO and NO2, where NO2 is causing the most harm and is emmitted f
 
 
 <p>
-<ref target="fig3">Figure 3</ref> shows peaks of NO2 emission in the morning between 6–9 AM, likely due to rush hour when people are driving to work. The midday concentrations are lower but increase again in the afternoon and evening hours. However, the limit of 200 µg/m³ is exceeded at H. C. Andersens Boulevard and Jagtvej during these peak hours, which can be verified by hovering over the plot. This is not only problematic as it suggest that children living in the highly trafficked areas are exposed to harmful air quality during hours where they are likely to be doing outdoor activies, but also as it seems that Denmark is not obeying EU directives. 
+ <a href="#fig3">Figure 3</a> shows peaks of NO2 emission in the morning between 6–9 AM, likely due to rush hour when people are driving to work. The midday concentrations are lower but increase again in the afternoon and evening hours. However, the limit of 200 µg/m³ is exceeded at H. C. Andersens Boulevard and Jagtvej during these peak hours, which can be verified by hovering over the plot. This is not only problematic as it suggest that children living in the highly trafficked areas are exposed to harmful air quality during hours where they are likely to be doing outdoor activies, but also as it seems that Denmark is not obeying EU directives. 
 </p>
 
 <p>
-Some pollutant even go beyong respiratory issues. The finer particles called PM2.5 and PM10 can cause more long term harm including strokes, cancer, and respiratory <a href="https://www.eea.europa.eu/en/newsroom/news/air-pollution-levels-across-europe">diseases</a> and even affects pregnancies by imposing low birth weight and pre-term births and. The PM2.5 particles are even so small, that they can to enter the lungs and  <a href="https://www.unicef.org/tajikistan/press-releases/1-5-infant-deaths-europe-and-central-asia-linked-air-pollution-unicef">bloodstream</a>. These particles are only measured at H. C. Andersens Boulevard, and a similar polar chart shown in <ref target="fig4">Figure 4</ref> for this data indicates that the EU limits of 20 µg/m³ and 40 µg/m³ for PM2.5 and PM10, respectively, is on average exceeded in all hours of the day:
+Some pollutant even go beyong respiratory issues. The finer particles called PM2.5 and PM10 can cause more long term harm including strokes, cancer, and respiratory <a href="https://www.eea.europa.eu/en/newsroom/news/air-pollution-levels-across-europe">diseases</a> and even affects pregnancies by imposing low birth weight and pre-term births and. The PM2.5 particles are even so small, that they can to enter the lungs and  <a href="https://www.unicef.org/tajikistan/press-releases/1-5-infant-deaths-europe-and-central-asia-linked-air-pollution-unicef">bloodstream</a>. These particles are only measured at H. C. Andersens Boulevard, and a similar polar chart shown in  <a href="#fig4">Figure 4</a> for this data indicates that the EU limits of 20 µg/m³ and 40 µg/m³ for PM2.5 and PM10, respectively, is on average exceeded in all hours of the day:
 </p>
 <figure id="fig4" style="float: right; margin-left: 10px; margin-bottom: 5px; width: 100%; max-width: 100%;">
   <iframe src="{{ site.baseurl }}/assets/plots/PM_emissions.html" 
@@ -118,12 +119,12 @@ Despite the risk of exposing children to harmful emission, the number of familie
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
    <strong>Figure 5:</strong> Evolution of nr. of families in different city districts in Copenhagen. <a href="https://kk.statistikbank.dk/statbank5a/Graphics/mapanalyser.asp?maintable=KKFAM1&lang=0">[Family data origin]</a>
   </figcaption>
-</figure>
+</figure> 
 
 
-<figure id="fig6" style="float: right; margin-left: 10px; margin-bottom: 5px; max-width: 400px;">
-  <iframe src="{{ site.baseurl }}/assets/plots/families_population_plot.html" width="400" height="350" frameborder="0"></iframe>
-  <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">
+<figure id="fig6" style="float: right; margin-left: 10px; margin-bottom: 0px; max-width: 400px;">
+  <iframe src="{{ site.baseurl }}/assets/plots/families_population_plot.html" width="400" height="400" frameborder="0"></iframe>
+  <figcaption style="text-align: center; font-style: italic; margin-top: 0px;">
     <strong>Figure 6:</strong> Family growth and share of families in Copenhagen. 
   </figcaption>
 </figure>
@@ -132,7 +133,12 @@ Despite the risk of exposing children to harmful emission, the number of familie
 <br>
 <br>
 <br>
+<br>
   While the total number of families in Copenhagen is rising (blue graph), the share of families relative to the overall population is actually decreasing (red graph). This trend suggests that other population groups such as singles, students, or elderly residents are growing at a faster rate, indicating that families are in fact not choosing Copenhagen as their primary base in recent years, controversely to the overall urbanization. 
+  <br>
+  <br>
+  <br>
+<br>
 </p>
 <br>
 
@@ -162,14 +168,14 @@ To investigate this further, the interactive bar chart below show two key indica
 <figure id="fig8">
   <iframe src="{{ site.baseurl }}/assets/plots/daycare_vs_playgrounds_dual_axis.html" width="100%" height="600" frameborder="0"></iframe>
   <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
-    <strong>Figure 8:</strong> Daycare Coverage vs Playgrounds per 1000 Kids. ***indsæt link***
+    <strong>Figure 8:</strong> Daycare Coverage vs Playgrounds per 1000 Kids.<a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner">[Day care data]</a>
   </figcaption>
 </figure>
 
 Many parents in Copenhagen has found it a struggle to find daycare for their children, due to long waitlists and overcrowded institutions. And an article from  <a href="https://cphpost.dk/2012-04-23/general/daycare-woes-continue-for-copenhagen-parents/">"The Copenhagen Post"</a> descibed these challenges in 2012, where the Mayor of Copenhagen Frank Jensen stated that by 2014 "there will be daycare for everyone within four kilometres of their home." By clicking on the blue legend ("Daycare coverage(%)") it is possible to explore the level of access parents have to daycare services for their children. This estimation is based on a baseline where the share of children in ages 0-4 years compared to the number of daycare institutions in the entirety of Copenhagen relates to 100%, making it possible to find the distribution in each city district. This analysis reveals that Østerbro, Amager, and Vanløse have the lowest share of daycare institutions, while Indre By stands out with an exceptionally high concentration of daycare facilities. Similar to the playgrounds, this could again be due to the limited access in the central part of Copenhagen, leading to smaller daycare institutions that are unable to accommodate a large number of children. 
 
 
-The central district of Copenhagen, boasts a relatively high number of playgrounds and daycare facilities, which is a positive feature for families. However, <ref target="fig9">Figure 10</ref> shows that these inner parts of the city has significantly high levels of noise pollution, likely caused by urban activities and dense traffic, not preferable for children to spend their day in. 
+The central district of Copenhagen, boasts a relatively high number of playgrounds and daycare facilities, which is a positive feature for families. However,  <a href="#fig9">Figure 9</a> shows that these inner parts of the city has significantly high levels of noise pollution, likely caused by urban activities and dense traffic, not preferable for children to spend their day in. 
 
 This uneven distribution of amenities, with some areas offering abundant green spaces and others lacking basic facilities and institutions, highlights a key issue: access to nature and recreational areas is not equally distributed across the city, resulting in some areas being a better fit for families contributing to social and spatial inequalities. 
 
