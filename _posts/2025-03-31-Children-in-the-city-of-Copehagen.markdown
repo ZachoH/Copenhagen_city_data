@@ -180,6 +180,6 @@ This uneven distribution of amenities, with some areas offering abundant green s
   </figcaption>
 </figure>
 
-Overall this shows that while Copenhagen has made an effort to match the need of both children and parents in both ensuring a welfare in access to green spaces, playgrounds, and daycare options there are still basic challenges such as air- and noise pollution in levels that are concidered unsafe. 
+Overall this shows that while Copenhagen has made an effort to match the need of both children and parents in both ensuring a welfare in access to green spaces, playgrounds, and daycare options there are still basic challenges such as air- and noise pollution in levels that are concidered unsafe.  
 
 
